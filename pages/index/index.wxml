@@ -1,0 +1,40 @@
+<!--index.wxml-->
+<view class="container">
+  <!-- <view class="userinfo">
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+    <block wx:else>
+     <image bindtap="bindViewTap" class="userinfo-avatar"  src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </block>    
+  </view>-->
+  <view>
+    <image class='pin' mode="{{item.mode}}" src="{{src}}"></image>
+    <image class='pin' mode="{{item.mode}}" src="{{src}}"></image>
+    <image class='pin' mode="{{item.mode}}" src="{{src}}"></image>
+  </view>
+  <view style='flex-direction:row;' class="flex-wrp">
+    <label class='label-date'><text class="userinfo-nickname">{{userInfo.nickName}}</text>今天是:{{date}}</label>
+  </view>
+  <!-- <view wx:for="{{array}}" class='array_text'> 
+     {{index+1}}: {{item.message}}    
+    </view> -->
+  <!-- <view style="width:198px;height: 197px;background-image:url('../resources/pin8.jpg'); margin-bottom: 15px;">        
+      <Label class='label-4__text'>2:官网的后台接口开发</Label>    
+    </view> -->
+  <view class="btn-area">
+    <view class="body-view">
+      <view class="section">
+        <view style='flex-direction:row;' class="flex-wrp">
+          <image class='add' bindtap="add" mode="{{item.mode}}" src="{{src_add}}"></image>
+          <input placeholder="输入新任务" auto-focus type='text' bindinput="bindKeyInput" class='input' />
+        </view>
+          <image class='delete' bindtap="remove" mode="{{item.mode}}" src="{{src_delete}}"></image>
+      </view>
+      <view wx:for="{{arrayList}}" class='array_text'>
+        <image class='pin{{index+1}}' style="display:{{displaystr}}" mode="{{item.mode}}" src='../resources/pin{{index+1}}.jpg'>
+          <view class='image_top_text' >{{item.message}}</view>
+        </image>
+      </view>
+    </view>
+  </view>
+</view>

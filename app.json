@@ -1,0 +1,13 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/maomi/maomi"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#eef",
+    "navigationBarTitleText": "工作台",
+    "navigationBarTextStyle": "black"
+  }
+}

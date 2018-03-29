@@ -1,0 +1,70 @@
+<view class="container">
+<view style="min-height: 800px;">
+    <view class="mao_box">
+        <view class="mao">
+            <view class="mao_head">
+                <view class="huawen">
+                    <view>
+                        <!--头部花纹——左边橙色-->
+                    </view>
+                </view>
+            </view>
+            <view class="erduo">
+                <view></view>
+                <view></view>
+            </view>
+            <view class="yanjing">
+                <view>
+                    <view class="yanquan">
+                        <view></view>
+                    </view>
+                    <view class="yanquan_hedding">
+                    </view>
+                    <view class="hong"></view>
+                </view>
+                <view class="yan_right">
+                    <view class="yanquan">
+                        <view></view>
+                    </view>
+                    <view class="yanquan_hedding">
+                    </view>
+                    <view class="hong"></view>
+                </view>
+                <view style="clear: both"></view>
+            </view>
+            <view class="face_huawen">
+                <view class="face_huawen_huawen huawen_left">
+                    <view></view>
+                    <view></view>
+                    <view></view>
+                    <view></view>
+                    <view></view>
+
+                </view>
+                <view class="face_huawen_huawen huawen_right">
+                    <view></view>
+                    <view></view>
+                    <view></view>
+                    <view></view>
+                    <view></view>
+
+                </view>
+                <view style="clear: both"></view>
+            </view>
+            <view class="bizi">
+                <view></view>
+                <view></view>
+                <view></view>
+                <view></view>
+            </view>
+            <view class="zuiba_box">
+                <view class="zuiba">
+                    <view></view>
+                    <view></view>
+                    <view></view>
+                </view>
+            </view>
+        </view>
+    </view>
+</view>
+</view>

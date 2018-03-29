@@ -1,0 +1,140 @@
+/**index.wxss**/
+
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.usermotto {
+  margin-top: 200px;
+}
+
+.pin {
+  width: 106rpx;
+  height: 103rpx;
+  margin: 20rpx;
+  border-radius: 60%;
+  margin-right: 40rpx;
+}
+
+.pin1 {
+  width: 214px;
+  height: 221px;
+  margin: 0rpx;
+  position: relative;
+}
+.pin2 {
+  width: 214px;
+  height: 220px;
+  margin: 0rpx;
+  position: relative;
+}
+.pin3 {
+  width: 212px;
+  height: 201px;
+  margin: 0rpx;
+  position: relative;
+}
+.pin4 {
+  width: 211px;
+  height: 190px;
+  margin: 0rpx;
+  position: relative;
+}
+
+.pin5 {
+  width: 211px;
+  height: 190px;
+  margin: 0rpx;
+  position: relative;
+}
+.pin6 {
+  width: 202px;
+  height: 190rpx;
+  margin: 0rpx;
+  position: relative;
+}
+.pin6 {
+  width: 204px;
+  height: 193px;
+  margin: 0rpx;
+  position: relative;
+}
+
+.pin7 {
+  width: 204px;
+  height: 193px;
+  position: relative;
+}
+.pin8 {
+  width: 198px;
+  height: 197px;
+  position: relative;
+}
+
+.pin9 {
+  width: 196px;
+  height: 197px;
+  margin: 20rpx;
+  position: relative;
+  border-radius: 10%;
+}
+
+.array_text {
+  margin: 5px;
+  font-size: 14px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-style: inherit;
+}
+
+.label-date {
+  display: flex;
+  flex-direction: column;
+  padding: 40rpx;
+}
+
+.section {
+  margin-bottom: 20rpx;
+  font-size: 14px;
+}
+
+.flex-wrp {
+  display: flex;
+}
+
+.image_top_text {
+  position: absolute;
+  z-index: 2;
+  left: 25px;
+  top: 50px;
+}
+
+.add {
+  width: 32rpx;
+  height: 32rpx;
+  margin: 20rpx;
+  border-radius: 60%;
+  margin-right: 40rpx;
+}
+.delete {
+  width: 32rpx;
+  height: 32rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+  margin-right: 40rpx;
+}
+.input{
+  min-height: 30px;
+}
